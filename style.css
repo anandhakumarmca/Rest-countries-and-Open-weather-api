@@ -1,0 +1,16 @@
+.card-body{
+    background-image: linear-gradient(to right,rgb(204, 200, 200),grey)
+}
+
+body{
+  background-color: rgb(82, 82, 158);
+}
+
+p{
+    font-weight: bolder;
+}
+
+img{
+    height:120px;
+    width:350px;
+}
