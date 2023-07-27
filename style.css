@@ -1,16 +1,37 @@
-.card-body{
-    background-image: linear-gradient(to right,rgb(204, 200, 200),grey)
-}
-
-body{
-  background-color: rgb(82, 82, 158);
-}
-
-p{
-    font-weight: bolder;
+.row{
+    display: -webkit-box;
+    display: flexbox;
+    flex-wrap: wrap;
 }
 
 img{
     height:120px;
     width:350px;
+} 
+
+body{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #db9833;
+}
+
+.card{
+  margin-top: 30px;
+  margin-left: 30px;
+  height:400px !important;
+}
+
+.card-body{
+  background-color: #f6d8ac;
+}
+
+.card-text{
+  padding: 5px;
+}
+
+#title{
+  color: white;
 }
